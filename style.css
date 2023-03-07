@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Games Hub</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Space Games Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="hero">
+        <h2>Explore the universe of space games</h2>
+        <p>Find the latest and greatest space-themed games to play.</p>
+        <a href="games.html">Explore Games</a>
+    </div>
+    
+    <div class="about">
+        <h2>About Us</h2>
+        <p>We are a team of space enthusiasts who love playing and creating games with a space theme. Our mission is to bring together the best space games in one place and share them with the world.</p>
+    </div>
+    
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2023 Space Games Hub. All rights reserved.</p>
+    </div>
+</body>
+</html>
